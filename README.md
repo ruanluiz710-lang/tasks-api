@@ -1,4 +1,4 @@
-# Portfolio - Tasks API (Node.js + Express + SQLite)
+# Projetos Tasks API (Node.js + Express + SQLite)
 
 API REST simples para gerenciar tarefas (CRUD) usando **Node.js**, **Express** e **SQLite**.
 
@@ -94,14 +94,6 @@ curl -Method DELETE http://localhost:3000/api/tasks/1
 - `src/repositories` → faz a comunicação com o banco SQLite
 - `src/db` → cria e abre o banco de dados local
 - `src/middlewares` → trata erros e envia resposta adequada
-
-## Por que é bom para portfólio
-Este projeto é uma boa demonstração para vagas de nível júnior porque mostra:
-- controle de rotas REST
-- organização do backend em camadas
-- integração com banco de dados
-- uso de boas práticas básicas de API
-- capacidade de construir uma aplicação funcional do início ao fim
 
 ## Próximas melhorias possíveis
 - adicionar testes automatizados
